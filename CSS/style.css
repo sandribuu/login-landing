@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url("../img/Oceanic.jpg");
+    background-size:cover;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.loginbox {
+    width: 320px;
+    height: 480px;
+    background: #132D74;
+    border-radius: 15px;
+    color: white;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 30px;   
+}
+
+.avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: relative;
+    top: -10%;
+    left: calc(50% - 50px);
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 22px;
+}
+
+.loginbox input {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.loginbox input[type = "text"], input[type = "password"] {
+    border: none;
+    border-bottom: 1px solid white;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: white;
+    font-size: 16px;
+}
+
+.loginbox input[type = "submit"] {
+    border: none;
+    outline: none;
+    height: 40px;
+    background-color: rgb(19, 150, 226);
+    color: white;
+    font-size: 18px;
+    border-radius: 20px;
+    cursor:pointer;
+}
+
+.loginbox input[type = "submit"]:hover {
+    cursor: pointer;
+    background: rgb(19, 150, 226);
+    color: white;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.loginbox a {
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    margin-left: 70px;
+    color: darkgray;
+}
+
+.loginbox a:hover {
+    color: white
+}
